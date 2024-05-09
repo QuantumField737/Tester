@@ -1,0 +1,108 @@
+Starting [SAST]
+Starting [Signed-Releases]
+Starting [Maintained]
+Starting [Fuzzing]
+Starting [License]
+Starting [Dependency-Update-Tool]
+Starting [Binary-Artifacts]
+Starting [Branch-Protection]
+Starting [Vulnerabilities]
+Starting [Security-Policy]
+Starting [Packaging]
+Starting [Contributors]
+Starting [Pinned-Dependencies]
+Starting [Dangerous-Workflow]
+Starting [Code-Review]
+Starting [Token-Permissions]
+Starting [CI-Tests]
+Starting [CII-Best-Practices]
+INFO[0000] Rate limit exceeded. Waiting 59m59.146344546s to retry... 
+
+
+
+
+
+TRY - 0000
+Starting [CII-Best-Practices]
+Starting [Fuzzing]
+Starting [Pinned-Dependencies]
+Starting [CI-Tests]
+Starting [Maintained]
+Starting [Packaging]
+Starting [SAST]
+Starting [Dependency-Update-Tool]
+Starting [Token-Permissions]
+Starting [Security-Policy]
+Starting [Signed-Releases]
+Starting [Binary-Artifacts]
+Starting [Branch-Protection]
+Starting [Code-Review]
+Starting [Contributors]
+Starting [Vulnerabilities]
+Finished [CI-Tests]
+Finished [Maintained]
+Finished [Packaging]
+Finished [SAST]
+Finished [Signed-Releases]
+Finished [Binary-Artifacts]
+Finished [Branch-Protection]
+Finished [Code-Review]
+Finished [Contributors]
+Finished [Dependency-Update-Tool]
+Finished [Token-Permissions]
+Finished [Security-Policy]
+Finished [Vulnerabilities]
+Finished [CII-Best-Practices]
+Finished [Fuzzing]
+Finished [Pinned-Dependencies]
+
+RESULTS
+-------
+Aggregate score: 4 / 10
+
+Check scores:
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+|  SCORE  |          NAME          |             REASON             |                         DOCUMENTATION/REMEDIATION                         |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| 10 / 10 | Binary-Artifacts       | no binaries found in the repo  | github.com/ossf/scorecard/blob/main/docs/checks.md#binary-artifacts       |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| 1 / 10  | Branch-Protection      | branch protection is not       | github.com/ossf/scorecard/blob/main/docs/checks.md#branch-protection      |
+|         |                        | maximal on development and all |                                                                           |
+|         |                        | release branches               |                                                                           |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| ?       | CI-Tests               | no pull request found          | github.com/ossf/scorecard/blob/main/docs/checks.md#ci-tests               |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| 0 / 10  | CII-Best-Practices     | no badge found                 | github.com/ossf/scorecard/blob/main/docs/checks.md#cii-best-practices     |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| 10 / 10 | Code-Review            | branch protection for default  | github.com/ossf/scorecard/blob/main/docs/checks.md#code-review            |
+|         |                        | branch is enabled              |                                                                           |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| 0 / 10  | Contributors           | 0 different companies found -- | github.com/ossf/scorecard/blob/main/docs/checks.md#contributors           |
+|         |                        | score normalized to 0          |                                                                           |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| 0 / 10  | Dependency-Update-Tool | no update tool detected        | github.com/ossf/scorecard/blob/main/docs/checks.md#dependency-update-tool |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| 0 / 10  | Fuzzing                | project is not fuzzed in       | github.com/ossf/scorecard/blob/main/docs/checks.md#fuzzing                |
+|         |                        | OSS-Fuzz                       |                                                                           |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| 1 / 10  | Maintained             | 2 commit(s) found in the last  | github.com/ossf/scorecard/blob/main/docs/checks.md#maintained             |
+|         |                        | 90 days -- score normalized to |                                                                           |
+|         |                        | 1                              |                                                                           |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| ?       | Packaging              | no published package detected  | github.com/ossf/scorecard/blob/main/docs/checks.md#packaging              |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| 0 / 10  | Pinned-Dependencies    | no unpinned dependencies       | github.com/ossf/scorecard/blob/main/docs/checks.md#pinned-dependencies    |
+|         |                        | -- score normalized to 0       |                                                                           |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| 0 / 10  | SAST                   | no SAST tool detected          | github.com/ossf/scorecard/blob/main/docs/checks.md#sast                   |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| 0 / 10  | Security-Policy        | security policy file not       | github.com/ossf/scorecard/blob/main/docs/checks.md#security-policy        |
+|         |                        | detected                       |                                                                           |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| ?       | Signed-Releases        | no releases found              | github.com/ossf/scorecard/blob/main/docs/checks.md#signed-releases        |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| 10 / 10 | Token-Permissions      | tokens are read-only in GitHub | github.com/ossf/scorecard/blob/main/docs/checks.md#token-permissions      |
+|         |                        | workflows                      |                                                                           |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
+| 10 / 10 | Vulnerabilities        | no vulnerabilities detected    | github.com/ossf/scorecard/blob/main/docs/checks.md#vulnerabilities        |
+|---------|------------------------|--------------------------------|---------------------------------------------------------------------------|
